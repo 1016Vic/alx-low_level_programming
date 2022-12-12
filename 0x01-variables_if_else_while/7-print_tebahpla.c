@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in reverse
- * Return: Always 0
+ * main - print the lower alphabets in reverse.
+ * Return: Always 0.
  */
 int main(void)
 {
-	char le;
+	char let;
 
-	for (le = 'z' le >= 'a' le--)
-		putchar(le);
+	for (let = 'z'; let >= 'a'; let--)
+		purchar(let);
 
-	putchar("\n");
+	putchar('\n')
 
-	return (0);
+		return (0);
 }
